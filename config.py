@@ -1,0 +1,5 @@
+db_user = 'postgres'
+db_password = 'AQ!sw2de3'
+db_host = 'localhost'
+db_port = '5432'
+db_name = 'housing_db'

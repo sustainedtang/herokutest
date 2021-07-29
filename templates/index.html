@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Project 2</title>
+    <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin="" />
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- D3 JS -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- math JS -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+
+</head>
+<body>
+<div class = 'title'>
+  <h1>Housing Data in California</h1>
+</div>
+<div class = 'blurb'>
+<p>Our group analyzed housing data in California to determine which county would be the most expensive/affordable place to live in. We took data from 2016-2021 in order to estimate
+  the trend of housing prices. 
+</p>
+</div>
+<div class= "image_file">
+<img alt="mortgage-rate" src="https://github.com/sustainedtang/project2ucd/blob/main/images/mortgage_rate.jpg?raw=true" height="500px", width="750px">
+<br>
+<img alt="lumber" src="https://github.com/sustainedtang/project2ucd/blob/main/images/lumber_price.jpg?raw=true" height= "500px", width="750px">
+</div>
+  <div class='container'>
+    
+      <div class='graph'>
+        
+        <div id='viz1' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+      <div class='graph'>
+        
+        <div id='viz2' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+      <div class='graph'>
+        
+        <div id='viz3' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+
+      <div class='graph'>
+        
+        <div id='viz4' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+
+      <div class='graph'>
+        
+        <div id='viz5' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+
+      <div class='graph'>
+        
+        <div id='viz6' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+
+      <div class='graph'>
+        
+        <div id='viz7' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+
+      <div class='graph'>
+        
+        <div id='viz8' style='max-height: 400px; max-width: 75%; overflow-x: hidden; overflow-y: scroll;'></div>
+      </div>
+    </div>
+
+
+   
+
+  
+
+    <div class='row'>
+      <div class='col-md-12'>
+        <!-- map div -->
+        <div id="map"></div>
+      </div>
+    </div>   
+   
+  </div>
+  
+    
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.2.0.min.js"></script>
+
+    <!-- API key -->
+    <script type="text/javascript" src="../static/js/config.js"></script>
+    <!-- JS  -->
+    <script type="text/javascript" src="../static/js/logic.js"></script>
+</body>
+</html> 
